@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Hero from '../Hero/Hero';
 import NavHome from '../NavHome/NavHome';
-import SpecailAreas from '../specailAreas/specailAreas';
+import SpecailAreas from '../SpecailAreas/SpecailAreas';
 import SpecailProducts from '../SpecailProducts/SpecailProducts';
 import LatestArticals from '../LatestArticals/LatestArticals';
 import WhyUs from '../WhyUs/WhyUs';
