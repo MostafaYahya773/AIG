@@ -10,7 +10,7 @@ import Projects from './Component/Projects/Projects';
 import AboutUs from './Component/AboutUs/AboutUs';
 import NavHomeDetails from './Component/NavHomeDetails/NavHomeDetails';
 import { CallContextProvider } from './Context/Context';
-import SpecailAreasDetails from './Component/SpecailAreasDetails/specailAreasDetails.jsx';
+import SpecailAreasDetails from './Component/SpecailAreasDetails/specailAreasDetails';
 import ArticalDetails from './Component/ArticalDetails/ArticalDetails';
 import CallUs from './Component/CallUs/CallUs';
 import ProjectDetails from './Component/ProjectDetails/ProjectDetails';
