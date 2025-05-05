@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+@import 'flowbite/src/themes/default';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+html {
+  user-select: none;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-arabic {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.areasbefore {
+  @apply before:content-[''] before:absolute before:right-5 before:w-[50px] before:h-[5px] before:bg-[#244F7F] before:top-20 lg:before:top-30 md:before:top-25 before:-translate-y-1/2;
+}
+
+.areasafter {
+  @apply after:content-['']  after:absolute after:right-15 after:w-[150px]  after:h-[3px] after:bg-[#000000] after:top-[80px] lg:after:top-[120px] md:after:top-[100px] after:-translate-y-1/2;
+}
+
+.opinion-befour {
+  @apply w-full h-full absolute top-0 -z-10 bg-[#1802026d];
+}
+
+.text-shadow {
+  text-shadow: 0 4px 10px black;
+}
+
+.box-shadow {
+  box-shadow: 0px 15px 18px -4px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 15px 18px -4px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 15px 18px -4px rgba(0, 0, 0, 0.27);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-slider .slick-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* top: 50%; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+
+.text-shadow-us {
+  text-shadow: 0px 10px 90px black;
+}
+
+textarea {
+  resize: none;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.artical .slick-dots {
+  display: block !important;
+}

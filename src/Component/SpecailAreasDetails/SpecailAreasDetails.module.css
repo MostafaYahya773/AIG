@@ -1,0 +1,15 @@
+.active {
+  border-bottom: 2px solid #063772;
+  padding-bottom: 8px;
+}
+.animation {
+  background: linear-gradient(to right, #063772 75%, transparent);
+  background-size: 100% 100%;
+  background-position: right;
+  transition: background-size 1s ease;
+}
+
+.animation:hover {
+  background-position: left;
+  background-size: 150% 100%;
+}

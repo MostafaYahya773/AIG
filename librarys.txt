@@ -1,0 +1,3 @@
+react-slide علشان اظبط الاسلايدر
+reactmotion علشان اعمل انيميشن ع الكلام او الdivs 
+reactCountup + react-intersection-observer علشان اعمل الكاونتر

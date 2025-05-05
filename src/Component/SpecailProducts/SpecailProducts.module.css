@@ -1,0 +1,8 @@
+.active {
+  background-color: white;
+  color: #063772;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  /* @apply bg-[#ffffff] shadow shadow-slate-600 px-5 py-1 rounded-2xl  text-[10px] lg:text-[20px]; */
+}
