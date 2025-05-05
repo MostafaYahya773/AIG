@@ -4,7 +4,7 @@ import DivAnimation from '../devAnimation/devAnimation';
 import useRequist from '../../hooks/useRequest';
 import { CallContext } from '../../Context/Context';
 
-export default function specailAreas() {
+export default function SpecailAreas() {
   let { data } = useRequist('projects');
   let { language } = useContext(CallContext);
   //filte an array

@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import Hero from '../Hero/Hero';
 import NavHome from '../NavHome/NavHome';
-import specailAreas from '../specailAreas/specailAreas';
 import SpecailProducts from '../SpecailProducts/SpecailProducts';
 import LatestArticals from '../LatestArticals/LatestArticals';
 import WhyUs from '../WhyUs/WhyUs';
@@ -11,6 +10,7 @@ import BestDevelopers from '../BestDevelopers/BestDevelopers';
 import CounterPage from '../CounterPage/CounterPage';
 import CompanyServices from '../CompanyServices/CompanyServices';
 import CallOurTeam from '../CallOurTeam/CallOurTeam';
+import SpecailAreas from '../SpecailAreas/SpecailAreas';
 
 export default function Home() {
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function Home() {
       <CounterPage />
       <CompanyServices />
       <NavHome />
-      <specailAreas />
+      <SpecailAreas />
       <SpecailProducts />
       <LatestArticals />
       <WhyUs />
