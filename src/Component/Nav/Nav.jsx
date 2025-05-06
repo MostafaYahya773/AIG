@@ -150,21 +150,30 @@ export default function Nav() {
               </li>
 
               <li className="mt-4 md:m-0 md:hidden">
-                <Link to={'/navHomeDetails'} className="block md:p-0  ">
+                <Link
+                  to={'/navHomeDetails/سكني/Residential'}
+                  className="block md:p-0  "
+                >
                   {language === 'ar'
                     ? 'المشروعات السكنية '
                     : 'Residential projects'}
                 </Link>
               </li>
               <li className="mt-4 md:m-0 md:hidden">
-                <Link to={'/navHomeDetails'} className="block md:p-0  ">
+                <Link
+                  to={'/navHomeDetails/سياحي/Touristic'}
+                  className="block md:p-0 "
+                >
                   {language === 'ar'
                     ? 'المشروعات السياحية '
                     : 'Tourism projects'}
                 </Link>
               </li>
               <li className="mt-4 md:m-0 md:hidden">
-                <Link to={'/navHomeDetails'} className="block md:p-0  ">
+                <Link
+                  to={'/navHomeDetails/تجاري/Commercial'}
+                  className="block md:p-0  "
+                >
                   {language === 'ar'
                     ? 'المشروعات التجارية '
                     : 'Commercial projects'}

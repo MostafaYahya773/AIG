@@ -15,7 +15,7 @@ export default function CallUs() {
   const handleFormak = (data) => {
     setIsLoading(true);
     axios
-      .post('http://localhost:3000/api/contact', data)
+      .post('https://aig-api.onrender.com/api/contact', data)
       .then((response) => {
         setIsLoading(false);
         toast.success(response?.data?.message, {
